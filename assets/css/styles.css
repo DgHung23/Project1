@@ -51,11 +51,20 @@ a{
 
 /* ------------HEADER--------------- */
 
-
-.header{
-    position: relative;
+.fixed-header{
     background: #E6F0FF;
-    height: 100vh;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #E6F0FF;
+    height: calc(100vh - 90px);
     
 }
 
@@ -65,8 +74,11 @@ a{
 .navbar{
     display: flex;
     align-items: center;
-    padding-top: 38px; /* tránh margin colap */
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
 }
+
 .navbar ul{
     display: flex;
     margin-left: 50px;
