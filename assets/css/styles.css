@@ -643,6 +643,13 @@ a{
     gap: 16px;
 }
 
+.footer .row .column .social .icon{
+    width: 28px;
+    height: 28px;
+}
+
+
+
 .footer .row-bottom{
     margin-top: 81px;
     justify-content: space-between;
